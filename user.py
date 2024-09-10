@@ -1,5 +1,14 @@
 import sqlite3
 import csv
+# 1.Install git
+# 2. create github acc and new repository
+# 3. go to terminal/cmd and write below commands
+# git config --global user.name "Ramesh Pradhan"
+# git config --global user.email"neerajbasnet98@gmail.com"
+# git init
+# git add .
+# git commit -m "Your commit message"
+# copy paste github commands form your github repository 
 
 def create_connection():
     try:
