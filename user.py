@@ -1,5 +1,5 @@
 import sqlite3
-
+import csv
 
 def create_connection():
     try:
@@ -46,7 +46,7 @@ def create_table(conn):
     print("User table was created successfully")
 
 
-import csv
+
 
 
 def read_csv():
